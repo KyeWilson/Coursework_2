@@ -41,7 +41,7 @@ The dataset is cleaned and preprocessed in each notebook for reproducibility.
    ```bash
    git clone <repository-link>
    cd <repository-folder>
-   pip install -r requirements.txt
+   pip install -r dependencies.txt
    jupyter notebook
 
 Navigate to the respective Q1, Q2, and Q3 folders to explore the notebooks.
