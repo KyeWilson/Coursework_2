@@ -5,14 +5,14 @@ This project explores the Galaxy Zoo dataset using machine learning and deep lea
 2. **Q2**: How does a Neural Network compare to a Decision Tree for this task?
 3. **Q3**: How does the choice of activation function affect Neural Network performance?
 
-The project is structured to guide beginners through data preprocessing, model design, and performance evaluation.
+The project is structured to guide beginners through data pre-processing, model design, and performance evaluation.
 
 ## Dataset
 The dataset is derived from the **Galaxy Zoo Challenge** and contains information about celestial objects with features such as:
 - **Features**: RA, DEC, magnitudes (u, g, r, i, z), and redshift.
 - **Target**: Object classification (Galaxy, Star, or Quasar).
 
-The dataset is cleaned and preprocessed in each notebook for reproducibility.
+The dataset is cleaned and pre-processed in each notebook for reproducibility.
 
 ## Notebooks
 
@@ -32,7 +32,7 @@ The dataset is cleaned and preprocessed in each notebook for reproducibility.
 - **Objective**: Investigate the impact of different activation functions (ReLU, Sigmoid, Tanh) on Neural Network performance.
 - **Key Results**:
   - **ReLU** and **Tanh** achieved 99% accuracy.
-  - **Tanh** minimized loss better (0.0505) compared to ReLU (0.0621).
+  - **Tanh** minimised loss better (0.0505) compared to ReLU (0.0621).
   - **Sigmoid** underperformed with 97% accuracy and higher loss.
 
 ## How to Run the Notebooks
