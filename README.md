@@ -41,26 +41,10 @@ The dataset is cleaned and preprocessed in each notebook for reproducibility.
    ```bash
    git clone <repository-link>
    cd <repository-folder>
-Install required Python packages:
    pip install -r requirements.txt
-
-Run the notebooks in Jupyter:
    jupyter notebook
 
 Navigate to the respective Q1, Q2, and Q3 folders to explore the notebooks.
-
----
-
-#### 5. **Dependencies**
-```markdown
-## Dependencies
-The project requires the following Python libraries:
-- `pandas`
-- `numpy`
-- `matplotlib`
-- `seaborn`
-- `scikit-learn`
-- `tensorflow`
 
 ### Acknowledgments
 - Galaxy Zoo Challenge for the dataset.
